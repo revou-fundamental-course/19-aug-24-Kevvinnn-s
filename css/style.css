@@ -1,1 +1,204 @@
 /* ini css */
+html{
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.nav-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-item{
+    border: 1px solid;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.banner-img{
+    height: 300px;
+    background-image: url(https://picsum.photos/100);
+    background-size: cover;
+    background-position: center ;
+}
+
+
+.logo-icon {
+  height: 48px;
+  width: 48px;
+  background-image: url(https://picsum.photos/100);
+  background-size: cover;
+  border-radius: 50%;
+} 
+
+.profile-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    
+}
+
+.profile-item{
+    height: 100px;
+    text-align: -webkit-center;
+    
+}
+
+.profile-img{
+    height: 100px;
+    background-image: url(https://picsum.photos/100);
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    width: 100px;
+}
+
+.profile-1{
+    display: flex;
+    font-size: 16px;
+}
+
+.profile-2{
+    display: flex;
+    font-size: 16px;
+}
+
+.profile-3{
+    display: flex;
+    font-size: 16px;
+}
+
+footer{
+    text-align: end;
+    font-size: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 60%;
+  }
+
+
+.form-container{
+    padding: 10px;
+   
+}
+
+Label{
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+
+.formgroup.colon{
+    flex: 0 0 20px;
+    text-align: center;
+}
+
+.formgroup input[type="text"],
+.formgroup input[type="date"],
+.formgroup .radiogroup,
+.formgroup textarea {
+  flex: 1;
+  flex-wrap: wrap;
+  margin-top: 0;
+}
+.formgroup {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10px;
+  }
+
+  .formgroup label {
+    flex: 0 0 120px;
+    margin-top: 0;
+  }
+
+  .radiogroup {
+    margin-top: 5px;
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background-color: #ddd;
+    border: none;
+    cursor: pointer;
+  }
+
+  .radiogroup input[type="radio"] {
+    margin-right: 5px;
+  }
+
+  .radiogroup {
+    display: flex;
+    align-items: center;
+  }
+
+  .radiogroup label {
+    flex: 0 0 auto;
+    margin-right: 15px;
+  }
+
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+.button{
+    display: flex;
+justify-content: center;
+}
+
+.buttonsubmit{
+    width: 250px;
+}
+
+.textarea-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textarea-content{
+    width: 200px;
+    height: 150px;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
