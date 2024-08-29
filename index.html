@@ -71,47 +71,45 @@
                     <header>
                         <h2>Message Us</h2>
                     </header>
-                    <form>
+                <form>
+
                     <div class="formgroup">
                     <label for="nama" >Nama</label>
                     <span class="colon">:</span>
-                    <input type="text" id="name" name="name" placeholder="" />
+                    <input type="text" id="full-name" name="name" placeholder="" />
                     </div>  
 
                     <div class="formgroup">
-                    <label for="TanggalLahir">Tanggal Lahir</label>
+                    <label for="Birth-date">Tanggal Lahir</label>
                     <span class="colon">:</span>
                     <input id= "date" type="date">
                     </div>
 
                     <div class="formgroup">
-                    <label for="Jenis Kelamin">Jenis Kelamin</label>
+                    <label>Jenis Kelamin</label>
                     <span class="colon">:</span>
-                    <div class="radiogroup">
-                    <input type="radio" id="male" name="JenisKelamin" > <label for="pria">pria</label>
-                    <input type="radio" id="female" name="JenisKelamin"> <label for="wanita">wanita</label>
+                    <div class="radiogroup" >
+                    <input type="radio" id="male" name="gender" value="Laki-Laki"> 
+                    <label for="pria">pria</label>
+                    <input type="radio" id="female" name="gender" value="Perempuan"> 
+                    <label for="wanita">wanita</label>
                     </div>  
                     </div>
 
                     <div class="formgroup">
-                    <label for="pesan">Pesan</label>
+                    <label for="message">Pesan</label>
                     <span class="colon">:</span>
-                    <textarea name="" id="pesan"></textarea>
+                    <textarea name="messages" id="message"></textarea>
                     </div>
 
-                    <div class="button">
                     <button type="button" onclick="formValidation()">Submit</button>
-                    </div>
+                    
+
                 </form>
                 </div>
                 
-                <div class="result">
-                    <span id="result-1"></span>
-                    Name : <span id="result"></span>
-                    Tanggal Lahir : <span id="result1"></span>
-                    Jenis Kelamin : <span id="result2"></span>
-                    Pesan : <span id="result3"></span>
-                </div>
+                <div class="result">Result: <span id="result"></span></div>
+            </div>      
 
                 </div>
             </section>
