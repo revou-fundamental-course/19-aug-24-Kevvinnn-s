@@ -1,10 +1,4 @@
 /* ini css */
-html{
-    margin: 0;
-    padding: 0;
-}
-
-
 .nav {
     display: flex;
     flex-wrap: wrap;
@@ -104,6 +98,11 @@ footer{
    
 }
 
+.Message-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
 Label{
     display: block;
     margin-top: 10px;
@@ -166,6 +165,15 @@ input[type="date"],
   textarea {
     resize: vertical;
     min-height: 100px;
+  }
+
+  .result{
+    padding: 10px;
+    border-left: 1px solid #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
   }
 
 

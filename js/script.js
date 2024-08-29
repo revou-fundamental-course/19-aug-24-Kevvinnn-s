@@ -19,4 +19,8 @@ function formValidation() {
     } else {
       document.getElementById('result1').innerHTML = '';
     }
+    console.log(TanggalLahir);
+
+
+
 }
